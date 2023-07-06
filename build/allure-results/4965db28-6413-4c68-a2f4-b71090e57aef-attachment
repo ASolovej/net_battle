@@ -1,0 +1,348 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-ru" xml:lang="ru-ru" class="ru-ru bnet-next"><head xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<meta http-equiv="imagetoolbar" content="false">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Авторизация в Battle.net</title>
+<link rel="apple-touch-icon" sizes="57x57" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/login/static/images/toolkit/themes/bnet-next/meta/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/login/static/images/toolkit/themes/bnet-next/meta/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/login/static/images/toolkit/themes/bnet-next/meta/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/login/static/images/toolkit/themes/bnet-next/meta/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/login/static/images/toolkit/themes/bnet-next/meta/favicon-96x96.png">
+<link rel="mask-icon" href="/login/static/images/toolkit/themes/bnet-next/meta/safari-pinned-tab.svg" color="#148eff">
+<meta name="msapplication-TileColor" content="#1c1e26">
+<meta name="msapplication-TileImage" content="/login/static/images/toolkit/themes/bnet-next/meta/ms-icon-150x150.png">
+<meta name="theme-color" content="#1c1e26">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js" nonce=""></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js" nonce=""></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-VYKNV7C0S3&amp;l=dataLayer&amp;cx=c" nonce=""></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-589KTQ" nonce=""></script><script nonce="" type="text/javascript">
+var BlzCookieConsent = {
+host: 'battle.net',
+onetrustScriptUrl: '',
+onetrustDomainScript: '',
+whitelistedCookies: ['']
+}
+</script>
+<script src="//bnetaccount.akamaized.net/login/static/js/gdpr/cookie-consent-filter.0JIl8.js" type="text/javascript" defer=""></script>
+<!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" media="all" href="//bnetaccount.akamaized.net/login/static/css/toolkit/bnet-next-web.3G8Tg.css"><!-- <![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="all" href="/login/static/css/toolkit/bnet-next-web-ie8.css?v=58-1" /><![endif]-->
+<link rel="stylesheet" type="text/css" media="all" href="//bnetaccount.akamaized.net/login/static/css/login/global.1ojhj.css?v=1">
+<link rel="stylesheet" type="text/css" media="all" href="//bnetaccount.akamaized.net/login/static/css/nav-client/nav-client.26C4w.css">
+<link rel="stylesheet" type="text/css" media="(max-width:800px)" href="//bnetaccount.akamaized.net/login/static/css/nav-client/nav-client-responsive.2L8V6.css">
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="//bnetaccount.akamaized.net/login/static/css/login/ie8.3AZrx.css" />
+<![endif]-->
+<link rel="search" type="application/opensearchdescription+xml" href="https://eu.battle.net/ru-ru/data/opensearch" title="">
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/third-party/jquery.4Zl4x.js?v=58-1"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/toolkit/toolkit.0r0f1.js?v=58-1"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/core.2Xqd1.js?v=58-1"></script>
+<meta name="viewport" content="width=device-width">
+<meta property="og:image" content="/login/static/images/meta/opengraph.png?v=58-1">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Фоновое изображение и логотип Battle.net">
+<style>.r34K7X1zGgAi6DllVF3T{box-sizing:border-box;border:0;margin:0;padding:0;overflow:hidden;display:none;z-index:2147483647;pointer-events:none;visibility:hidden;opacity:0;transition:opacity 300ms linear;height:0;width:0}.r34K7X1zGgAi6DllVF3T.active{display:block;visibility:visible}.r34K7X1zGgAi6DllVF3T.active.show{opacity:1;pointer-events:inherit;position:inherit}.r34K7X1zGgAi6DllVF3T.active.show.in-situ{width:inherit;height:inherit}.r34K7X1zGgAi6DllVF3T.active.show.lightbox{position:fixed;width:100% !important;height:100% !important;top:0;right:0;bottom:0;left:0}@-moz-document url-prefix(''){.r34K7X1zGgAi6DllVF3T{visibility:visible;display:block}}
+</style></head><body class="eu ru-ru login-template bam web bnet-next tk-bnet-next ce-standalone-browser js-enabled" data-embedded-state="STATE_LOGIN" data-baseurl="/login/ru" data-cdnurl="//akamai-http.web.blizzard.net/content" data-staticurl="/login/static" data-sharedstaticurl="/login/static/local-common" data-securesupporturl="https://eu.battle.net/support/" data-project="login" data-projecturl="/login" data-locale="ru-ru" data-language="ru" data-region="eu" data-loggedin="false" data-useragent="web" data-client-environment="standalone-browser" data-autofocus-enabled="true" data-tagmanageraccount="GTM-589KTQ" data-gtmdatalayer="[{'userAgent':'web','analyticsRequestUri':'/login/ru/','theme':'bnet-next','errorCode':'','state':'STATE_LOGIN'}]" data-nonce="How5iEAH5V" data-srp-script-url="//bnetaccount.akamaized.net/login/static/js/login/0.srp6a-routines.worker.1PBfF.js" data-pw-v2-worker-url="//bnetaccount.akamaized.net/login/static/js/login/upgrade-verifier.worker.39zo7.js" data-v2-password-js="//bnetaccount.akamaized.net/login/static/js/login/account-password.0702N.js" data-scrollbar="false" data-network-error-message="Проверьте соединение с сетью и попробуйте еще раз."><input id="blzArkoseHealthy" type="hidden" value="true">
+<script type="text/javascript" src="//blizzard-api.arkoselabs.com/v2/CF5C61EE-F062-45DF-A32F-E9398E2B4E0D/api.js" data-callback="blzArkoseEnforcement" async="" defer=""></script>
+
+
+<script nonce="" type="text/javascript">
+"use strict";
+!function(r){var t="/login/error-report";function o(e,n,r){void 0!==n[r]&&(e[r]=n[r])}function a(){var e,n;return{system:function(){var e={};e.clientTimeMillis=Date.now();var n=r.navigator;return o(e,n,"oscpu"),o(e,n,"hardwareConcurrency"),o(e,n,"deviceMemory"),e}(),network:(e={},void 0!==(n=r.navigator.connection)&&(o(e,n,"downlink"),o(e,n,"downlinkMax"),o(e,n,"effectiveType"),o(e,n,"rtt"),o(e,n,"type")),e),browser:function(){var e={};o(e,r&&r.location,"href"),o(e,window,"devicePixelRatio"),o(e,window,"innerHeight"),o(e,window,"innerWidth");var n=r.navigator;return o(e,n,"platform"),o(e,n,"userAgent"),o(e,n,"language"),o(e,n,"cookieEnabled"),e}()}}function e(e,n,r,o,i){i={message:e,source:n,lineno:r,colno:o,stack:(void 0===(o=i)?{}:o).stack};o={environment:a(),error:i},(i=new XMLHttpRequest).open("POST",t),i.setRequestHeader("Content-Type","application/json"),i.setRequestHeader("Accept","application/json"),i.addEventListener("error",function(e){console.error("An error occurred while sending an error-report. Error: "+e)}),i.send(JSON.stringify(o))}void 0!==r?(r.onerror=e,r.errorReporter={global:e}):console.error('Unable to bind onError listener as "window" was undefined.')}(window,document);
+</script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/login/analytics.0HTGj.js?v=58-1"></script>
+<div class="grid-container wrapper">
+<div class="box-wrapper ">
+<div class="box-wrapper-inner">
+<h1 class="logo logo-horizontal" "="">Авторизация в Battle.net</h1>
+<div class="hide" id="info-wrapper">
+<h2><strong class="info-title"></strong></h2>
+<p class="info-body"></p>
+<button class="btn btn-block hide visible-phone" id="info-phone-close">Закрыть</button>
+</div>
+<div class="input" id="login-wrapper">
+<div class="login">
+<!-- Default layout for third party form -->
+<!-- Default layout -->
+<h3 id="login-header">Авторизоваться</h3>
+<div class="useResponse social-login external-login-container">
+<form method="post" action="/login/signin/google" id="googleLogin" class="class org.apache.maven.project.MavenProject" enctype="">
+<button id="google" role="row" class="btn btn-block third-party-login social-icon login-google" rel="external" aria-label="Авторизоваться с помощью Facebook" title="Авторизоваться с помощью Facebook" tabindex="0">
+<i class="icon-google"></i>
+</button>
+<input type="hidden" name="scope" value="openid,profile,email">
+<input type="hidden" name="ref" value="">
+<input type="hidden" name="app" value="">
+<input type="hidden" name="scheme" value="">
+<input type="hidden" name="deviceProof" value="282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c">
+<input type="hidden" id="csrftoken-googleLogin" class="csrftoken" name="csrftoken" value="e779e03a-7751-41fe-8465-e34cddf0331f">
+</form>
+<form method="post" action="/login/signin/facebook" id="facebookLogin" class="class org.apache.maven.project.MavenProject" enctype="">
+<button id="facebook" role="row" class="btn btn-block third-party-login social-icon login-facebook" rel="external" aria-label="Авторизоваться с помощью Facebook" title="Авторизоваться с помощью Facebook" tabindex="0">
+<i class="icon-facebook"></i>
+</button>
+<input type="hidden" name="scope" value="public_profile,email,user_friends">
+<input type="hidden" name="ref" value="">
+<input type="hidden" name="app" value="">
+<input type="hidden" name="scheme" value="">
+<input type="hidden" name="deviceProof" value="282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c">
+<input type="hidden" id="csrftoken-facebookLogin" class="csrftoken" name="csrftoken" value="e779e03a-7751-41fe-8465-e34cddf0331f">
+</form>
+<form method="post" action="/login/signin/apple" id="appleLogin" class="class org.apache.maven.project.MavenProject" enctype="">
+<button id="apple" role="row" class="btn btn-block third-party-login social-icon login-apple" rel="external" aria-label="Авторизоваться с помощью Apple" title="Авторизоваться с помощью Apple" tabindex="0">
+<i class="icon-apple"></i>
+</button>
+<input type="hidden" name="scope" value="email,name">
+<input type="hidden" name="ref" value="">
+<input type="hidden" name="app" value="">
+<input type="hidden" name="scheme" value="">
+<input type="hidden" name="deviceProof" value="282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c">
+<input type="hidden" id="csrftoken-appleLogin" class="csrftoken" name="csrftoken" value="e779e03a-7751-41fe-8465-e34cddf0331f">
+</form>
+<form method="post" action="/login/signin/live" id="liveLogin" class="class org.apache.maven.project.MavenProject" enctype="">
+<button id="live" role="row" class="btn btn-block third-party-login social-icon login-live" rel="external" aria-label="Авторизоваться с помощью Xbox Network" title="Авторизоваться с помощью Xbox Network" tabindex="0">
+<i class="icon-live"></i>
+</button>
+<input type="hidden" name="scope" value="Xboxlive.signin">
+<input type="hidden" name="ref" value="">
+<input type="hidden" name="app" value="">
+<input type="hidden" name="scheme" value="">
+<input type="hidden" name="deviceProof" value="282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c">
+<input type="hidden" id="csrftoken-liveLogin" class="csrftoken" name="csrftoken" value="e779e03a-7751-41fe-8465-e34cddf0331f">
+</form>
+<form method="post" action="/login/signin/psn" id="psnLogin" class="class org.apache.maven.project.MavenProject" enctype="">
+<button id="psn" role="row" class="btn btn-block third-party-login social-icon login-psn" rel="external" aria-label="Авторизоваться с помощью PlayStation™Network" title="Авторизоваться с помощью PlayStation™Network" tabindex="0">
+<i class="icon-psn"></i>
+</button>
+<input type="hidden" name="scope" value="psn:s2s">
+<input type="hidden" name="ref" value="">
+<input type="hidden" name="app" value="">
+<input type="hidden" name="scheme" value="">
+<input type="hidden" name="deviceProof" value="282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c">
+<input type="hidden" id="csrftoken-psnLogin" class="csrftoken" name="csrftoken" value="e779e03a-7751-41fe-8465-e34cddf0331f">
+</form>
+<form method="post" action="/login/signin/nintendo" id="nintendoLogin" class="class org.apache.maven.project.MavenProject" enctype="">
+<button id="nintendo" role="row" class="btn btn-block third-party-login social-icon login-nintendo" rel="external" aria-label="Авторизоваться с помощью Nintendo" title="Авторизоваться с помощью Nintendo" tabindex="0">
+<i class="icon-nintendo"></i>
+</button>
+<input type="hidden" name="scope" value="openid,offline,user.basic,user.email">
+<input type="hidden" name="ref" value="">
+<input type="hidden" name="app" value="">
+<input type="hidden" name="scheme" value="">
+<input type="hidden" name="deviceProof" value="282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c">
+<input type="hidden" id="csrftoken-nintendoLogin" class="csrftoken" name="csrftoken" value="e779e03a-7751-41fe-8465-e34cddf0331f">
+</form>
+</div>
+<div class="thirdparty-line">
+<span>или войти через</span>
+</div>
+<!-- Phoenix specific layout -->
+<form action="" method="post" id="password-form" novalidate="novalidate" class=" captcha-required
+username-required
+input-focus
+form-with-captcha" data-arkose-enabled="true">
+<div id="login-input-container" class="">
+<div id="js-errors" class="alert alert-error alert-icon hide" role="alert" aria-relevant="additions removals" data-support-aria="Перейти по ссылке сайта поддержки, внешней ссылке.">
+<p id="cookie-check" class="hide">В вашем браузере отключены cookies. Чтобы перейти к следующей странице, пожалуйста, подключите их.</p>
+</div>
+<noscript>
+<div id="javascript-disabled" class="alert alert-error alert-icon">
+</div>
+</noscript>
+<div class="control-group ">
+<label id="accountName-label" class="control-label" for="accountName">Электронная почта или телефон</label>
+<div class="controls">
+<input id="accountName" aria-label="Поле электронной почты или телефона. Введите электронный адрес или телефонный номер." name="accountName" title="Электронная почта или телефон" maxlength="320" type="text" tabindex="0" class="input-block " placeholder="Электронная почта или телефон" autocorrect="off" spellcheck="false">
+<span class="input-after"></span>
+<span class="error-helper error-helper-accountName hide">
+</span>
+</div>
+</div>
+<div class="control-group ">
+<label id="password-label" class="control-label" for="password">Пароль</label>
+<div class="controls">
+<div class="blz-password-wrapper"><input id="password" aria-label="Поле пароля. Введите пароль." name="password" title="Пароль" maxlength="128" type="password" tabindex="0" class="input-block " autocomplete="off" placeholder="Пароль" autocorrect="off" spellcheck="false" data-password-show-aria="Показать пароль" data-password-hide-aria="Скрыть пароль"><span class="view-password-button" tabindex="0" aria-live="assertive" role="button"><i class="show-password fas fa-eye" aria-label="Показать пароль"></i><i class="hide-password hide fas fa-eye-slash" aria-label="Скрыть пароль"></i></span><span class="caps-lock-indicator hide"><i class="fas fa-arrow-alt-square-up"></i></span></div>
+<span class="input-after"></span>
+<span class="error-helper error-helper-password hide">
+</span>
+</div>
+</div>
+<input type="hidden" id="srpEnabled" name="srpEnabled" value="true">
+<input type="hidden" id="upgradeVerifier" name="upgradeVerifier" value="">
+<input type="hidden" id="useSrp" name="useSrp" value="false">
+<input type="hidden" id="publicA" name="publicA" value="">
+<input type="hidden" id="clientEvidenceM1" name="clientEvidenceM1" value="">
+<div class="persistWrapper">
+<label id="persistLogin-label" class="checkbox-label css-label hide checked" for="persistLogin">
+<input aria-labelledby="persistLogin-label" id="persistLogin" name="persistLogin" type="checkbox" checked="checked" tabindex="0" aria-checked="true">
+<span class="input-checkbox"></span>
+Оставаться в сети
+</label>
+</div>
+</div>
+<div id="arkose-enforcement-container"></div>
+<div id="blizz-captcha" class="control-group test hide">
+<div class="captcha">
+<a id="captcha-anchor" role="button">
+<i class="icon-48-refresh"></i>
+<div class="captcha-image">
+<img id="sec-string" align="middle" src="/login/captcha.jpg?1688670338843" alt="Предложите мне другие символы!" title="Предложите мне другие символы!">
+</div>
+</a>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="captcha-input-container" class="control-group hide">
+<label id="captchaInput-label" class="control-label" for="captchaInput">Код</label>
+<div class="controls">
+<input id="captchaInput" aria-labelledby="captchaInput-label" name="captchaInput" title="Код" maxlength="320" type="text" tabindex="0" class="input-block " autocomplete="off" placeholder="Код" autocorrect="off" spellcheck="false">
+<span class="input-after"></span>
+<span class="error-helper error-helper-captchaInput hide">
+</span>
+</div>
+</div>
+<input type="hidden" id="captchaType" name="captchaType" value="ARKOSE_LABS_CAPTCHA">
+<div class="control-group submit no-cancel">
+<button type="submit" id="submit" class="btn-block btn btn-primary submit-button disabled loading processing" data-loading-text="" tabindex="0" aria-disabled="true" aria-label="Авторизация">
+Авторизоваться
+<i class="spinner-battlenet"></i>
+</button>
+</div>
+<input type="hidden" id="csrftoken" class="csrftoken" name="csrftoken" value="e779e03a-7751-41fe-8465-e34cddf0331f">
+<input type="hidden" id="sessionTimeout" name="sessionTimeout" value="1688672143843">
+<input type="hidden" name="deviceProof" value="282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c">
+</form>
+<!-- Phoenix specific layout for third party form -->
+<ul id="help-links" role="navigation">
+<li role="link">
+<a rel="internal" href="https://account.battle.net/creation/?theme=bnet-next&amp;flowTrackingId=70218aa9-74d5-4658-8708-6ef310a0cd6c&amp;bdp=282670bfc4c8d15f9d44c559200128769d9af9910eb4322c00d75f1aa3085e2c" tabindex="0" id="signup" role="button">
+Зарегистрируйте учетную запись Battle.net бесплатно
+</a>
+</li>
+<li role="link">
+<a rel="internal" target="_blank" href="https://account.battle.net/recovery/?theme=bnet-next&amp;flowTrackingId=70218aa9-74d5-4658-8708-6ef310a0cd6c" tabindex="0" id="loginSupport" role="button">
+Вы не можете войти?
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<script nonce="" type="text/javascript">
+(function() {
+if (!window.BDP) {
+window.BDP = [];
+}
+window.BDP.push(
+function(lib, e) {
+if (e == null) {
+lib.bind(
+document.querySelectorAll('form button'),
+document.querySelectorAll('input[name="deviceProof"]'),
+document.querySelectorAll('a#signup'),
+'ba'
+);
+}
+}
+);
+})();
+</script>
+<img src="//bnetaccount.akamaized.net/login/static/images/toolkit/themes/bnet/icons/sprite-24-red.0PPlX.png" class="hide">
+<img src="//bnetaccount.akamaized.net/login/static/images/toolkit/themes/bnet/spinners/spinner-battlenet.1IdwV.png" class="hide">
+<footer id="footer" class="footer ru-ru">
+<div id="nav-client-footer" class="nav-client">
+<div class="mobileFooterEnabled footer-content footer-desktop grid-container"> <div class="nav-section support-feedback">
+<div class="nav-left">
+<div id="nav-feedback">
+</div>
+</div>
+</div>
+<div class="nav-section">
+<div class="nav-left nav-logo-group">
+<div class="footer-links nav-left">
+<a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula" data-analytics="global-nav" data-analytics-placement="Footer - eula">Пользовательское соглашение Blizzard</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://www.blizzard.com/company/about/privacy.html" data-analytics="global-nav" data-analytics-placement="Footer - Privacy">Политика конфиденциальности</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/" data-analytics="global-nav" data-analytics-placement="Footer - Terms">Условия</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/about/infringementnotice.html" data-analytics="global-nav" data-analytics-placement="Footer - copyright">Авторское право</a>
+<span>|</span>
+<a class="nav-item nav-a" href="/login/cookies" data-analytics="global-nav" data-analytics-placement="Footer - Cookies">Файлы cookie</a>
+<span>|</span>
+<a class="nav-item nav-a" href="/login/cookies#settings" data-analytics="global-nav" data-analytics-placement="Footer - Cookie Settings">Параметры cookie</a>
+<div class="copyright">© Blizzard Entertainment, Inc., 2023</div>
+<div class="nav-footer-icon-container">
+<ul class="nav-footer-icon-list">
+</ul>
+</div>
+</div>
+</div>
+<div class="nav-ratings">
+</div>
+</div>
+</div>
+<div class="mobileFooterEnabled footer-content footer-mobile grid-container"> <div class="nav-logo-group">
+<div class="footer-links">
+<a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula" data-analytics="global-nav" data-analytics-placement="Footer - eula">Пользовательское соглашение Blizzard</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://www.blizzard.com/company/about/privacy.html" data-analytics="global-nav" data-analytics-placement="Footer - Privacy">Политика конфиденциальности</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/" data-analytics="global-nav" data-analytics-placement="Footer - Terms">Условия</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/about/infringementnotice.html" data-analytics="global-nav" data-analytics-placement="Footer - copyright">Авторское право</a>
+<span>|</span>
+<a class="nav-item nav-a" href="/login/cookies" data-analytics="global-nav" data-analytics-placement="Footer - Cookies">Файлы cookie</a>
+<span>|</span>
+<a class="nav-item nav-a" href="/login/cookies#settings" data-analytics="global-nav" data-analytics-placement="Footer - Cookie Settings">Параметры cookie</a>
+</div>
+<div class="copyright">© Blizzard Entertainment, Inc., 2023</div>
+<div class="nav-footer-icon-container">
+<ul class="nav-footer-icon-list">
+</ul>
+</div>
+<div class="nav-ratings">
+</div>
+</div>
+</div>
+</div>
+<div class="modal eu-cookie-compliance desktop hide" id="eu-cookie-compliance">
+<div class="modal-header">
+<a class="close" data-dismiss="modal" id="cookie-compliance-close"><i class="icon-remove icon-white"></i></a>
+<h1></h1>
+</div>
+<div class="modal-body">
+<p></p>
+</div>
+<button class="btn btn-primary" id="cookie-compliance-agree"></button>
+<a class="btn" id="cookie-compliance-learn" href="https://www.blizzard.com/company/about/privacy.html" target="_blank"></a>
+</div>
+<div class="modal eu-cookie-compliance mobile hide" id="eu-cookie-compliance">
+<div class="modal-body">
+<a class="close" data-dismiss="modal" id="cookie-compliance-close"><i class="icon-remove icon-white"></i></a>
+<p></p>
+</div>
+<button class="btn btn-primary" id="cookie-compliance-agree"></button>
+<a class="btn" id="cookie-compliance-learn" href="https://www.blizzard.com/company/about/privacy.html" target="_blank"></a>
+</div>
+</footer> </div>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/embedded-javascript/embed.0LR2R.js?v=58-1"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/login/srp-client.4X4Jb.js?v=1"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/toolkit/toolkit-password.2roF6.js?v=1"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/login/device-proof.0F0Ha.js?v=1"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/login/global.2pXbb.js"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/login/login.3Tqx9.js"></script>
+<script type="text/javascript" src="//bnetaccount.akamaized.net/login/static/js/login/arkoselabs.0ZqVH.js?v=58-1"></script>
+
+<script type="text/javascript" id="">window.blzCookieConsentFirstPageViewDebounced?dataLayer.push({event:"CookieConsentPageView"}):window.blzCookieConsentFirstPageViewDebounced=!0;</script><script type="text/javascript" id="">window.blzCookieConsentChanged=!0;window.blzCookieConsentGaHasLoaded&&dataLayer.push({event:"CookieConsentGaHasLoaded"});</script><script type="text/javascript" id="">(function(){function e(a){var c={event:"Automatic"};Object.keys(a);var b,d=1;for(b in a)a.hasOwnProperty(b)&&!/^gtm\./.test(b)&&("event"===b?c.autoEvent=a.event:(c["autoKey"+d]=b,c["autoValue"+d]=a[b],d++));for(;9>=d;)c["autoKey"+d]="auto",c["autoValue"+d]=void 0,d++;return c}function f(a,c){var b=dataLayer.find(function(d){return d["gtm.uniqueEventId"]==a});if(c=b&&b.event==c)(c=g[b.event])&&(b=c(b)),(c=c||/^[a-z0-9]+(_[a-z0-9]+)*$/.test(b.event))&&dataLayer.push(e(b))}var g={ctaBuy:function(a){return{event:"cta_buy",
+buy_type:a.eventLabel,cta_action:"buy",cta_category:"cta",cta_name:a.eventLabel,cta_placement:a.ctaPlacement,destination_url:a.destinationUrl}},ctaDownload:function(a){return{event:"click_download",cta_action:"download",cta_category:"cta",cta_name:a.eventLabel,cta_placement:a.ctaPlacement}},ctaLogin:function(a){return{event:"click_login",cta_action:"login",cta_category:"cta",cta_name:a.eventLabel,cta_placement:a.ctaPlacement,destination_url:a.destinationUrl}},ctaOther:function(a){return"age-gate"===
+a.ctaPlacement?{event:"age_gate",age_gate_status:a.eventLabel}:/Download Battle.net/i.test(a.ctaPlacement)?{event:"download_launcher",cta_name:a.eventLabel,cta_placement:a.ctaPlacement}:/highlighted|viewed/i.test(a.eventLabel)?{event:"view_carousel",slide_name:a.eventLabel}:/products/i.test(a.ctaPlacement)?/tab/i.test(a.eventLabel)?{event:"click_filter",filter_name:a.eventLabel}:{event:"select_game",game_title:a.eventLabel,game_placement:a.placement}:/banner|button/i.test(a.eventLabel)?{event:"click_carousel",
+slide_name:a.eventLabel}:{event:"click_cta",cta_action:"other",cta_category:"cta",cta_name:a.eventLabel,cta_placement:a.ctaPlacement,destination_url:a.destinationUrl}},ctaRegister:function(a){return{event:"click_register",cta_action:"register",cta_category:"cta",cta_name:a.eventLabel,cta_placement:a.ctaPlacement,destination_url:a.destinationUrl}},videoComplete:function(a){return{event:"video_complete_native",video_id:a.videoId,video_title:a.videoTitle,video_placement:a.videoPlacement}},videoPause:function(a){return{event:"video_pause",
+video_id:a.videoId,video_title:a.videoTitle,video_placement:a.videoPlacement}},videoPlay:function(a){return{event:"video_play",video_id:a.videoId,video_title:a.videoTitle,video_placement:a.videoPlacement}}};f(google_tag_manager["rm"]["339831"](6),google_tag_manager["rm"]["339831"](7))})();</script>
+</body></html>
